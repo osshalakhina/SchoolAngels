@@ -114,7 +114,7 @@ a {
 
 @media only screen and (max-width: 425px) {
   body {
-    margin: 20px 40px;
+    margin: 20px 30px;
   }
 
   .about {
@@ -128,6 +128,26 @@ a {
   }
 
   .image {
-    height: 150px;
+    height: 190px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 20px 30px;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .image-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  .image {
+    height: 160px;
   }
 }
